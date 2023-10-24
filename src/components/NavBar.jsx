@@ -16,7 +16,7 @@ export const NavBar = () => {
           >
             APIsPERU
           </a>
-          <a href="https://github.com/Buddier" target="_blank" className="link">
+          <a href="https://github.com/Buddier/peru-dni-ruc-consult" target="_blank" className="link">
             GitHub
           </a>
         </div>
