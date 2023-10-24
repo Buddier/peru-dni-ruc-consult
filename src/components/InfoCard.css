@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #000;
+    padding: 14px;
+    background-color: #3faccd;
+    border-radius: 1rem;
+    box-shadow: rgba(15, 230, 254, 0.35) 0px 5px 15px;
+}
+
+.error-card {
+    border: 1px solid #000;
+    padding: 14px;
+    background-color: #ef3f3f;
+    border-radius: 1rem;
+    box-shadow: rgba(225, 12, 12, 0.35) 0px 5px 15px;
+}
+
+.card-info {
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.card-info span {
+    font-weight: 300;
+}
+
+.dni-photo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: url('https://th.bing.com/th/id/OIP.qw42y3S9KyR2Wn9JVAWArgHaHa?pid=ImgDet&rs=1') no-repeat center/cover;
+}
+
+.doc-number {
+    font-size: 18px;
+    font-weight: bold;
+}

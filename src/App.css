@@ -1,0 +1,101 @@
+header {
+ top: 0;
+ left: 0;
+ background: #3c45483e;
+ display: flex;
+ align-items: center;
+ padding: 15px;
+ justify-content: space-between;
+ position: fixed;
+ width: 100%;
+ backdrop-filter: blur(10px);
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .logo {
+  padding-left: 5px;
+}
+
+header .links {
+  padding-right: 45px;
+}
+
+header .links .link {
+  padding-left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+header .links .link:hover {
+  color: #00e1ff;
+  text-shadow: rgba(15, 230, 254, 0.35) 0px 5px 15px;
+}
+
+.container {
+  text-align: center;
+  padding: 10vh;
+}
+
+.container h1 {
+  color: red;
+}
+
+.container span {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.container .form {
+  color: aliceblue;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.container .form input[type=number] {
+	width: 11em;
+	padding: 0.5em;
+	border: .1em solid #dee3e3;
+	border-radius: 0.5em;
+	text-align: center;
+	color: white;
+	appearance: textfield;
+  background-color: #3c45483e;
+	margin: 0;
+	&::-webkit-inner-spin-button {
+		opacity: 1;
+		background: rgb(0, 213, 255);
+	}
+}
+
+.container .form button {
+  background-color: #40dfe86f;
+  border-radius: 0.9em;
+  color: white;
+  padding: 7.5px 16px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.container .form button:hover {
+  cursor: pointer;
+  background-color: #00e1ff;
+}
+
+.cards {
+  color: white;
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  color: #9aa0a6;
+  bottom: 0;
+  background: #3c45483e;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
